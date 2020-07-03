@@ -1,0 +1,8 @@
+{
+  "name": "LTTW",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lastrust/LTTW.git",
+  "author": "hitsuji-haneta <hitsuji-haneta@hotmail.com>",
+  "license": "MIT"
+}
