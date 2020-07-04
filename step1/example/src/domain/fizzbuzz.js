@@ -1,5 +1,5 @@
 export default class FizzBuzz {
-  handleFizzBuzz(num) {
+  checkFizzBuzz(num) {
     if (num % 3 === 0 && num % 5 === 0) {
       return "FizzBuzz";
     } else if (num % 3 === 0) {
