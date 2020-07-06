@@ -23,9 +23,9 @@ describe('FizzBuzz', () => {
       expect(result).toBe("FizzBuzz");
     })
 
-    it('returns number if argument is not multiple of 3 or 5', () => {
+    it('returns empty if argument is not multiple of 3 or 5', () => {
       const result = fz.checkFizzBuzz(2);
-      expect(result).toBe(2);
+      expect(result).toBe("");
     })
   })
 });

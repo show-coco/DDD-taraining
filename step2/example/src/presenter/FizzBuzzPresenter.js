@@ -1,3 +1,3 @@
-import { randomFizzBuzz } from '../usecase/FizzBuzzUsecase';
+import { runFizzBuzz } from '../usecase/FizzBuzzUsecase';
 
-export const runFizzBuzz = () => randomFizzBuzz((str) => console.log(str));
+export const presentFizzBuzz = () => runFizzBuzz((num, result) => console.log(num, result));
