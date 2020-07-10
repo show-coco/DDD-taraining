@@ -1,3 +1,3 @@
-import { presentFizzBuzz } from './presenter/FizzBuzzPresenter';
+import {presentFizzBuzz} from './presenter/presentFizzBuzz';
 
 presentFizzBuzz();

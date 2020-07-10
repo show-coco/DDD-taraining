@@ -1,5 +1,11 @@
 export default class FizzBuzz {
-  checkFizzBuzz(num) {
+  handleFizzBuzz(num) {
+    // validation of num
+    if(
+      Math.round(num) !== num ||
+      typeof num === 'String'
+    ) return NaN
+
     if (num % 3 === 0 && num % 5 === 0) {
       return "FizzBuzz";
     } else if (num % 3 === 0) {
@@ -7,7 +13,14 @@ export default class FizzBuzz {
     } else if (num % 5 === 0) {
       return "Buzz";
     } else {
-      return "";
+      return num;
     }
+  }
+
+  handleExit(str) {
+    if(str === "FizzBuzz") {
+      return true;
+    }
+    return false;
   }
 }
